@@ -1,34 +1,37 @@
 {
-
-  "auth": [{
+  "auth": [
+    {
       "id": 1,
       "email": "admin",
       "password": "admin",
       "access_token": "dasdasdasd"
     },
     {
+      "id": 2,
       "email": "fix@gmail.com",
       "password": "admin",
-      "id": 2
+      "access_token": "dasdasdasd"
     },
     {
       "email": "fix@hotmail.com",
       "password": "admin",
-      "id": 3
+      "id": 3,
+      "access_token": "dasdasdasd"
     },
     {
       "email": "test",
       "password": "test",
-      "id": 4
+      "id": 4,
+      "access_token": "dasdasdasd"
     },
     {
       "email": "zeca@gmail.com",
       "password": "zeca123",
-      "id": 5
+      "id": 5,
+      "access_token": "dasdasdasd"
     }
   ],
   "anunciante": [
-
     {
       "id": "1",
       "star": 5,
@@ -45,7 +48,8 @@
       "imageProfile": "https://models.bestmodelsagency.com/recursos/clientes/F31110A5-6133-4F2E-96A8-927FA9485371/list.jpg?v1589811317?202203111855",
       "imageBanner": "",
       "descricao": "Lorem ipsum dolor sit amet. 33 saepe reprehenderit et pariatur nisi et voluptas ducimus. Rem maxime sunt a voluptatibus aliquam ea quia quaerat non culpa saepe qui illum velit non quos tempora. Sit cumque doloribus hic dicta fugit non voluptatum doloremque eos consectetur quia ut earum repellat. Et placeat neque ad accusantium dolorem qui delectus dolores id suscipit architecto non eaque laborum.",
-      "posts": [{
+      "posts": [
+        {
           "imagePost": "https://2.bp.blogspot.com/-kthvH230zDA/XdsSRPu0otI/AAAAAAAByW8/cHh5Com8QBgpE60NpoyCjkC41FfmnKtOACLcBGAsYHQ/s1600/226550881-maxim-nebesskiy-photo.jpg",
           "id": "1"
         },
@@ -66,7 +70,6 @@
     {
       "id": "2",
       "star": 5,
-
       "name": "Regina Rocha",
       "email": "dasdasd",
       "phone": "43999999999",
@@ -79,7 +82,6 @@
     {
       "id": "3",
       "star": 5,
-
       "name": "Suelen Galvão",
       "email": "dasdasd",
       "phone": "43999999999",
@@ -91,7 +93,6 @@
     {
       "id": "4",
       "star": 10,
-
       "name": "Vanessa Taradinha",
       "email": "dasdasd",
       "phone": "43999999999",
@@ -103,39 +104,70 @@
     {
       "id": "5",
       "star": 3,
-
-      "name": "Fernandinha Gatosa",
+      "name": "Fernandinha Gatosad",
       "email": "dasdasd",
       "phone": "43999999999",
       "city": "Ribeirao Preto",
       "imageProfile": "https://s.afnoticias.com.br/cache/2022/1594f282a926d9a1e894dbdc244c6fa3.jpg",
       "descricao": "Lorem ipsum dolor sit amet. 33 saepe reprehenderit et pariatur nisi et voluptas ducimus. Rem maxime sunt a voluptatibus aliquam ea quia quaerat non culpa saepe qui illum velit non quos tempora. Sit cumque doloribus hic dicta fugit non voluptatum doloremque eos consectetur quia ut earum repellat. Et placeat neque ad accusantium dolorem qui delectus dolores id suscipit architecto non eaque laborum."
+    },
+    {
+      "id": "6",
+      "star": 3,
+      "name": "Fernandinha Gatosa",
+      "email": "dasdasd",
+      "phone": "43999999999",
+      "city": "Faroupilha",
+      "imageProfile": "https://s.afnoticias.com.br/cache/2022/1594f282a926d9a1e894dbdc244c6fa3.jpg",
+      "descricao": "Lorem ipsum dolor sit amet. 33 saepe reprehenderit et pariatur nisi et voluptas ducimus. Rem maxime sunt a voluptatibus aliquam ea quia quaerat non culpa saepe qui illum velit non quos tempora. Sit cumque doloribus hic dicta fugit non voluptatum doloremque eos consectetur quia ut earum repellat. Et placeat neque ad accusantium dolorem qui delectus dolores id suscipit architecto non eaque laborum."
     }
   ],
-
-  "cidades": [{
+  "estados": [
+    {
       "id": 1,
-      "name": "Sao Paulo"
+      "name": "Sao Paulo",
+      "cidades": [
+        {
+          "id": 1,
+          "name": "Sao Paulo",
+          "foto":"https://s.afnoticias.com.br/cache/2022/1594f282a926d9a1e894dbdc244c6fa3.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Guarulhos",
+          "foto":"https://s.afnoticias.com.br/cache/2022/1594f282a926d9a1e894dbdc244c6fa3.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Ribeirao Preto",
+          "foto":"https://s.afnoticias.com.br/cache/2022/1594f282a926d9a1e894dbdc244c6fa3.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Campinas",
+          "foto":"https://s.afnoticias.com.br/cache/2022/1594f282a926d9a1e894dbdc244c6fa3.jpg"
+        }
+      ]
     },
     {
-      "id": 2,
-      "name": "Guarulhos"
-    },
-    {
-      "id": 3,
-      "name": "Ribeirao Preto"
-    },
-    {
-      "id": 4,
-      "name": "Campinas"
+      "id":2,
+      "name":"Porto Alegre",
+      "cidades":[
+        {
+          "id":1,
+          "name":"Faroupilha",
+          "foto":"https://s.afnoticias.com.br/cache/2022/1594f282a926d9a1e894dbdc244c6fa3.jpg"
+        }
+      ]
     }
   ],
-  "planos": [{
-    "id": 1,
-    "name": "Plano 1",
-    "type": "Mensal",
-    "descricao": "Ganhe mais visualização no seu perfil",
-    "valor": "500"
-  }]
-
+  "planos": [
+    {
+      "id": 1,
+      "name": "Plano 1",
+      "type": "Mensal",
+      "descricao": "Ganhe mais visualização no seu perfil",
+      "valor": "500"
+    }
+  ]
 }
