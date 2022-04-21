@@ -1,146 +1,141 @@
 {
 
-  "autenticação" : [
-    {
-      "id" : 1 ,
-      "e-mail" : " admin " ,
-      "senha" : " admin " ,
-      "access_token" : " dasdasdasd "
+  "auth": [{
+      "id": 1,
+      "email": "admin",
+      "password": "admin",
+      "access_token": "dasdasdasd"
     },
     {
-      "email" : " fix@gmail.com " ,
-      "senha" : " admin " ,
-      "id" : 2
+      "email": "fix@gmail.com",
+      "password": "admin",
+      "id": 2
     },
     {
-      "email" : " fix@hotmail.com " ,
-      "senha" : " admin " ,
-      "id" : 3
+      "email": "fix@hotmail.com",
+      "password": "admin",
+      "id": 3
     },
     {
-      "e-mail" : " teste " ,
-      "password" : " teste " ,
-      "id" : 4
+      "email": "test",
+      "password": "test",
+      "id": 4
     },
     {
-      "email" : " zeca@gmail.com " ,
-      "senha" : " zeca123 " ,
-      "id" : 5
+      "email": "zeca@gmail.com",
+      "password": "zeca123",
+      "id": 5
     }
   ],
-  "anunciante" : [
+  "anunciante": [
 
-      {
-        "id" : " 1 " ,
-        "estrela" : 5 ,
-        "nome" : " Agatha Mendes " ,
-        "email" : " dasdasd " ,
-        "idade" : 22 ,
-        "cache" : 40,44 ,
-        "pagamento" : " pix " ,
-        "horario" : " 08:30:00 " ,
-        "telefone" : " (11) 999999999 " ,
-        "cidade" : " São Paulo " ,
-        "locais" : " santa mônica " ,
-        "região" : " Itaim Bibi " ,
-        "imageProfile" : " https://models.bestmodelsagency.com/recursos/clientes/F31110A5-6133-4F2E-96A8-927FA9485371/list.jpg?v1589811317?202203111855 " ,
-        "imageBanner": "",
-        "descricao" : " Lorem ipsum dolor sit amet. 33 saepe reprehenderit et pariatur nisi et voluptas ducimus. Rem maxime sunt a voluptatibus aliquam ea quia quaerat non culpa saepe qui illum velit non quos tempora. Sit cumque doloribus hic dicta fugit non voluptatum doloremque eos consectetur quia ut earum repellat. Et placeat neque ad accusantium dolorem qui delectus dolores id suscipit architecto non eaque laborum .",
-        "postagens" :[
-          {
-            "imagePost" : " https://2.bp.blogspot.com/-kthvH230zDA/XdsSRPu0otI/AAAAAAAByW8/cHh5Com8QBgpE60NpoyCjkC41FfmnKtOACLcBGAsYHQ/s1600/226550881-maxim-nebesskiy-photo.jpg " ,
-            "id" : " 1 "
-          },
-          {
-            "imagePost" : " https://2.bp.blogspot.com/-kthvH230zDA/XdsSRPu0otI/AAAAAAAByW8/cHh5Com8QBgpE60NpoyCjkC41FfmnKtOACLcBGAsYHQ/s1600/226550881-maxim-nebesskiy-photo.jpg " ,
-            "id" : " 2 "
-          },
-          {
-            "imagePost" : " https://2.bp.blogspot.com/-kthvH230zDA/XdsSRPu0otI/AAAAAAAByW8/cHh5Com8QBgpE60NpoyCjkC41FfmnKtOACLcBGAsYHQ/s1600/226550881-maxim-nebesskiy-photo.jpg " ,
-            "id" : " 3 "
-          },
-          {
-            "imagePost" : " https://2.bp.blogspot.com/-kthvH230zDA/XdsSRPu0otI/AAAAAAAByW8/cHh5Com8QBgpE60NpoyCjkC41FfmnKtOACLcBGAsYHQ/s1600/226550881-maxim-nebesskiy-photo.jpg " ,
-            "id" : " 4 "
-          }
-        ]
-      },
-      {
-        "id" : " 2 " ,
-        "estrela" : 5 ,
+    {
+      "id": "1",
+      "star": 5,
+      "name": "Agatha Mendes",
+      "email": "dasdasd",
+      "idade": 22,
+      "cache": 40.44,
+      "pagamento": "pix",
+      "horario": "08:30:00",
+      "phone": "(11) 999999999",
+      "city": "Sao Paulo",
+      "locais": "santa monica",
+      "region": "Itaim Bibi",
+      "imageProfile": "https://models.bestmodelsagency.com/recursos/clientes/F31110A5-6133-4F2E-96A8-927FA9485371/list.jpg?v1589811317?202203111855",
+      "imageBanner": "",
+      "descricao": "Lorem ipsum dolor sit amet. 33 saepe reprehenderit et pariatur nisi et voluptas ducimus. Rem maxime sunt a voluptatibus aliquam ea quia quaerat non culpa saepe qui illum velit non quos tempora. Sit cumque doloribus hic dicta fugit non voluptatum doloremque eos consectetur quia ut earum repellat. Et placeat neque ad accusantium dolorem qui delectus dolores id suscipit architecto non eaque laborum.",
+      "posts": [{
+          "imagePost": "https://2.bp.blogspot.com/-kthvH230zDA/XdsSRPu0otI/AAAAAAAByW8/cHh5Com8QBgpE60NpoyCjkC41FfmnKtOACLcBGAsYHQ/s1600/226550881-maxim-nebesskiy-photo.jpg",
+          "id": "1"
+        },
+        {
+          "imagePost": "https://2.bp.blogspot.com/-kthvH230zDA/XdsSRPu0otI/AAAAAAAByW8/cHh5Com8QBgpE60NpoyCjkC41FfmnKtOACLcBGAsYHQ/s1600/226550881-maxim-nebesskiy-photo.jpg",
+          "id": "2"
+        },
+        {
+          "imagePost": "https://2.bp.blogspot.com/-kthvH230zDA/XdsSRPu0otI/AAAAAAAByW8/cHh5Com8QBgpE60NpoyCjkC41FfmnKtOACLcBGAsYHQ/s1600/226550881-maxim-nebesskiy-photo.jpg",
+          "id": "3"
+        },
+        {
+          "imagePost": "https://2.bp.blogspot.com/-kthvH230zDA/XdsSRPu0otI/AAAAAAAByW8/cHh5Com8QBgpE60NpoyCjkC41FfmnKtOACLcBGAsYHQ/s1600/226550881-maxim-nebesskiy-photo.jpg",
+          "id": "4"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "star": 5,
 
-        "nome" : " Regina Rocha " ,
-        "email" : " dasdasd " ,
-        "telefone" : " 43999999999 " ,
-        "cidade" : " São Paulo " ,
-        "região" : " Vila Madela " ,
-        "imageProfile" : " https://s.afnoticias.com.br/cache/2022/1594f282a926d9a1e894dbdc244c6fa3.jpg " ,
-        "imageBanner" : " https://www.marianabeltrame.com/wp-content/uploads/2018/05/ensaio-sensual-fotografa-mariana-beltrame-78.jpg " ,
-        "descricao" : " Lorem ipsum dolor sit amet. 33 saepe reprehenderit et pariatur nisi et voluptas ducimus. Rem maxime sunt a voluptatibus aliquam ea quia quaerat non culpa saepe qui illum velit non quos tempora. Sit cumque doloribus hic dicta fugit non voluptatum doloremque eos consectetur quia ut earum repellat. Et placeat neque ad accusantium dolorem qui delectus dolores id suscipit architecto non eaque laborum .",
-      },
-      {
-        "id" : " 3 " ,
-        "estrela" : 5 ,
+      "name": "Regina Rocha",
+      "email": "dasdasd",
+      "phone": "43999999999",
+      "city": "Sao Paulo",
+      "region": "Vila Madela",
+      "imageProfile": "https://s.afnoticias.com.br/cache/2022/1594f282a926d9a1e894dbdc244c6fa3.jpg",
+      "imageBanner": "https://www.marianabeltrame.com/wp-content/uploads/2018/05/ensaio-sensual-fotografa-mariana-beltrame-78.jpg",
+      "descricao": "Lorem ipsum dolor sit amet. 33 saepe reprehenderit et pariatur nisi et voluptas ducimus. Rem maxime sunt a voluptatibus aliquam ea quia quaerat non culpa saepe qui illum velit non quos tempora. Sit cumque doloribus hic dicta fugit non voluptatum doloremque eos consectetur quia ut earum repellat. Et placeat neque ad accusantium dolorem qui delectus dolores id suscipit architecto non eaque laborum."
+    },
+    {
+      "id": "3",
+      "star": 5,
 
-        "nome" : " Suelen Galvão " ,
-        "email" : " dasdasd " ,
-        "telefone" : " 43999999999 " ,
-        "cidade" : " Guarulhos " ,
-        "imageProfile" : " https://s.afnoticias.com.br/cache/2022/1594f282a926d9a1e894dbdc244c6fa3.jpg " ,
-        "imageBanner" : " https://cdn.alboompro.com/60d605935194e10001af9cb4_60df4baa34cdca000173e40c/medium/fotografia-sensual-feminina_vic-04.jpg?v=1 " ,
-        "descricao" : " Lorem ipsum dolor sit amet. 33 saepe reprehenderit et pariatur nisi et voluptas ducimus. Rem maxime sunt a voluptatibus aliquam ea quia quaerat non culpa saepe qui illum velit non quos tempora. Sit cumque doloribus hic dicta fugit non voluptatum doloremque eos consectetur quia ut earum repellat. Et placeat neque ad accusantium dolorem qui delectus dolores id suscipit architecto non eaque laborum .",
-      },
-      {
-        "id" : " 4 " ,
-        "estrela" : 10 ,
+      "name": "Suelen Galvão",
+      "email": "dasdasd",
+      "phone": "43999999999",
+      "city": "Guarulhos",
+      "imageProfile": "https://s.afnoticias.com.br/cache/2022/1594f282a926d9a1e894dbdc244c6fa3.jpg",
+      "imageBanner": "https://cdn.alboompro.com/60d605935194e10001af9cb4_60df4baa34cdca000173e40c/medium/fotografia-sensual-feminina_vic-04.jpg?v=1",
+      "descricao": "Lorem ipsum dolor sit amet. 33 saepe reprehenderit et pariatur nisi et voluptas ducimus. Rem maxime sunt a voluptatibus aliquam ea quia quaerat non culpa saepe qui illum velit non quos tempora. Sit cumque doloribus hic dicta fugit non voluptatum doloremque eos consectetur quia ut earum repellat. Et placeat neque ad accusantium dolorem qui delectus dolores id suscipit architecto non eaque laborum."
+    },
+    {
+      "id": "4",
+      "star": 10,
 
-        "nome" : " Vanessa Taradinha " ,
-        "email" : " dasdasd " ,
-        "telefone" : " 43999999999 " ,
-        "cidade" : " Campinas " ,
-        "imageProfile" : " https://fiuol.com.br/fotografia/2021/11/23/1637698556619d4bfc20b63_1637698556_1x1_md.jpg " ,
-        "imageBanner" : " https://48e0a1fee8b7ec446bbd-c8e0c4557290f56ba5e5395f8f913b7e.ssl.cf5.rackcdn.com/GaleriaImagem/131076/ensaio-sensual-em-santa-teresa-rio-de-janeiro_thais-6.jpg " ,
-        "descricao" : " Lorem ipsum dolor sit amet. 33 saepe reprehenderit et pariatur nisi et voluptas ducimus. Rem maxime sunt a voluptatibus aliquam ea quia quaerat non culpa saepe qui illum velit non quos tempora. Sit cumque doloribus hic dicta fugit non voluptatum doloremque eos consectetur quia ut earum repellat. Et placeat neque ad accusantium dolorem qui delectus dolores id suscipit architecto non eaque laborum .",
-      },
-      {
-        "id" : " 5 " ,
-        "estrela" : 3 ,
+      "name": "Vanessa Taradinha",
+      "email": "dasdasd",
+      "phone": "43999999999",
+      "city": "Campinas",
+      "imageProfile": "https://f.i.uol.com.br/fotografia/2021/11/23/1637698556619d4bfc20b63_1637698556_1x1_md.jpg",
+      "imageBanner": "https://48e0a1fee8b7ec446bbd-c8e0c4557290f56ba5e5395f8f913b7e.ssl.cf5.rackcdn.com/GaleriaImagem/131076/ensaio-sensual-em-santa-teresa-rio-de-janeiro_thais-6.jpg",
+      "descricao": "Lorem ipsum dolor sit amet. 33 saepe reprehenderit et pariatur nisi et voluptas ducimus. Rem maxime sunt a voluptatibus aliquam ea quia quaerat non culpa saepe qui illum velit non quos tempora. Sit cumque doloribus hic dicta fugit non voluptatum doloremque eos consectetur quia ut earum repellat. Et placeat neque ad accusantium dolorem qui delectus dolores id suscipit architecto non eaque laborum."
+    },
+    {
+      "id": "5",
+      "star": 3,
 
-        "nome" : " Fernandinha Gatosa " ,
-        "email" : " dasdasd " ,
-        "telefone" : " 43999999999 " ,
-        "cidade" : " Ribeirão Preto " ,
-        "imageProfile" : " https://s.afnoticias.com.br/cache/2022/1594f282a926d9a1e894dbdc244c6fa3.jpg " ,
-        "descricao" : " Lorem ipsum dolor sit amet. 33 saepe reprehenderit et pariatur nisi et voluptas ducimus. Rem maxime sunt a voluptatibus aliquam ea quia quaerat non culpa saepe qui illum velit non quos tempora. Sit cumque doloribus hic dicta fugit non voluptatum doloremque eos consectetur quia ut earum repellat. Et placeat neque ad accusantium dolorem qui delectus dolores id suscipit architecto non eaque laborum .",
-      }
-    ],
+      "name": "Fernandinha Gatosa",
+      "email": "dasdasd",
+      "phone": "43999999999",
+      "city": "Ribeirao Preto",
+      "imageProfile": "https://s.afnoticias.com.br/cache/2022/1594f282a926d9a1e894dbdc244c6fa3.jpg",
+      "descricao": "Lorem ipsum dolor sit amet. 33 saepe reprehenderit et pariatur nisi et voluptas ducimus. Rem maxime sunt a voluptatibus aliquam ea quia quaerat non culpa saepe qui illum velit non quos tempora. Sit cumque doloribus hic dicta fugit non voluptatum doloremque eos consectetur quia ut earum repellat. Et placeat neque ad accusantium dolorem qui delectus dolores id suscipit architecto non eaque laborum."
+    }
+  ],
 
-  "cidades" : [
-      {
-        "id" : 1 ,
-        "nome" : " São Paulo "
-      },
-      {
-        "id" : 2 ,
-        "nome" : " Guarulhos "
-      },
-      {
-        "id" : 3 ,
-        "nome" : " Ribeirão Preto "
-      },
-      {
-        "id" : 4 ,
-        "nome" : " Campinas "
-      }
-    ],
-    "planos" :[
-      {
-        "id" : 1 ,
-        "name" : " Plano 1 " ,
-        "tipo" : " Mensal " ,
-        "descricao" : " Ganhe mais visualização no seu perfil " ,
-        "valor" : " 500 "
-      }
-    ]
+  "cidades": [{
+      "id": 1,
+      "name": "Sao Paulo"
+    },
+    {
+      "id": 2,
+      "name": "Guarulhos"
+    },
+    {
+      "id": 3,
+      "name": "Ribeirao Preto"
+    },
+    {
+      "id": 4,
+      "name": "Campinas"
+    }
+  ],
+  "planos": [{
+    "id": 1,
+    "name": "Plano 1",
+    "type": "Mensal",
+    "descricao": "Ganhe mais visualização no seu perfil",
+    "valor": "500"
+  }]
 
 }
