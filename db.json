@@ -117,7 +117,7 @@
       "name": "Fernandinha Gatosa",
       "email": "dasdasd",
       "phone": "43999999999",
-      "city": "Faroupilha",
+      "city": "Porto Alegre",
       "imageProfile": "https://s.afnoticias.com.br/cache/2022/1594f282a926d9a1e894dbdc244c6fa3.jpg",
       "descricao": "Lorem ipsum dolor sit amet. 33 saepe reprehenderit et pariatur nisi et voluptas ducimus. Rem maxime sunt a voluptatibus aliquam ea quia quaerat non culpa saepe qui illum velit non quos tempora. Sit cumque doloribus hic dicta fugit non voluptatum doloremque eos consectetur quia ut earum repellat. Et placeat neque ad accusantium dolorem qui delectus dolores id suscipit architecto non eaque laborum."
     }
@@ -151,11 +151,11 @@
     },
     {
       "id":2,
-      "name":"Porto Alegre",
+      "name":"Rio Grande do Sul",
       "cidades":[
         {
           "id":1,
-          "name":"Rio Grande do Sul",
+          "name":"Porto Alegre",
           "foto":"https://s.afnoticias.com.br/cache/2022/1594f282a926d9a1e894dbdc244c6fa3.jpg"
         }
       ]
