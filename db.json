@@ -1,0 +1,99 @@
+{
+  "laudos":{
+  "hasNext":true,
+  "page":1,
+  "pageSize":10,
+  "items":[
+    {
+      "id":"1",
+      "name":"Laudo-Cromotomatico",
+      "total": [
+        {
+        "mes": "01",
+        "laudostotaisgerados": "399"
+        },
+        {
+          "mes": "02",
+          "laudostotaisgerados": "654"
+        },
+        {
+          "mes": "03",
+          "laudostotaisgerados": "543"
+        },
+        {
+          "mes": "04",
+          "laudostotaisgerados": "453"
+        },
+        {
+          "mes": "05",
+          "laudostotaisgerados": "543"
+        },
+        {
+          "mes": "06",
+          "laudostotaisgerados": "643"
+        }
+    ]
+    },
+    {
+      "id":"2",
+      "name":"Laudo-Cromotomatico",
+      "total": [
+        {
+        "mes": "01",
+        "laudostotaisgerados": "534"
+        },
+        {
+          "mes": "02",
+          "laudostotaisgerados": "512"
+        },
+        {
+          "mes": "03",
+          "laudostotaisgerados": "526"
+        },
+        {
+          "mes": "04",
+          "laudostotaisgerados": "567"
+        },
+        {
+          "mes": "05",
+          "laudostotaisgerados": "579"
+        },
+        {
+          "mes": "06",
+          "laudostotaisgerados": "643"
+        }
+      ]
+    },
+    {
+      "id":"3",
+      "name":"Laudo-Cromotomatico",
+      "total": [
+        {
+        "mes": "01",
+        "laudostotaisgerados": "299"
+        },
+        {
+          "mes": "02",
+          "laudostotaisgerados": "322"
+        },
+        {
+          "mes": "03",
+          "laudostotaisgerados": "288"
+        },
+        {
+          "mes": "04",
+          "laudostotaisgerados": "290"
+        },
+        {
+          "mes": "05",
+          "laudostotaisgerados": "340"
+        },
+        {
+          "mes": "06",
+          "laudostotaisgerados": "350"
+        }
+      ]
+    }
+  ]
+}
+}
