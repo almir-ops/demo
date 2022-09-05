@@ -1,38 +1,41 @@
 {
-  "hasNext": true,
-  "_message": [],
+  "cameras":{
+  "hasNext":true,
+  "page":1,
+  "pageSize":10,
   "items": [
-      {
-          "id": 1,
-          "name": "Camera 1",
-          "type": "usb",
-          "ip": "0.0.0.0.0",
-          "port": 9000,
-          "pid": 13,
-          "user": "admin",
-          "password": "admin",
-          "stream": "rtsp://admin:password",
-          "isRecording": false,
-          "isStreaming": true,
-          "isStreamingRTSP": false,
-          "created_at": "2019-10-10 10:10:10",
-          "updated_at": "2019-10-10 10:10:10"
-      },
-      {
-          "id": 1,
-          "name": "Camera 1",
-          "type": "ip",
-          "ip": "0.0.0.0.0",
-          "port": 9001,
-          "pid": 11,
-          "user": "admin",
-          "password": "admin",
-          "stream": "rtsp://admin:password",
-          "isRecording": false,
-          "isStreaming": true,
-          "isStreamingRTSP": false,
-          "created_at": "2019-10-10 10:10:10",
-          "updated_at": "2019-10-10 10:10:10"
-      }
-  ]
+    {
+        "id": 1,
+        "name": "Camera 1",
+        "type": "usb",
+        "ip": "0.0.0.0.0",
+        "port": 9000,
+        "pid": 13,
+        "user": "admin",
+        "password": "admin",
+        "stream": "rtsp://admin:password",
+        "isRecording": false,
+        "isStreaming": true,
+        "isStreamingRTSP": false,
+        "created_at": "2019-10-10 10:10:10",
+        "updated_at": "2019-10-10 10:10:10"
+    },
+    {
+        "id": 1,
+        "name": "Camera 1",
+        "type": "ip",
+        "ip": "0.0.0.0.0",
+        "port": 9001,
+        "pid": 11,
+        "user": "admin",
+        "password": "admin",
+        "stream": "rtsp://admin:password",
+        "isRecording": false,
+        "isStreaming": true,
+        "isStreamingRTSP": false,
+        "created_at": "2019-10-10 10:10:10",
+        "updated_at": "2019-10-10 10:10:10"
+    }
+]
+}
 }
